@@ -14,6 +14,11 @@ Usage of mytweets:
     	server address (default ":8989")
 ```
 
+## Requirements
+
+* sqlite3 コマンド
+* golang
+
 ## Installation
 
 ```
