@@ -9,7 +9,7 @@
 カレントディレクトリに Twitter からダウンロードした `tweets.csv` を置いたあと実行します。
 
 ```
-Usage of mytweets.exe:
+Usage of mytweets:
   -a string
     	server address (default ":8989")
 ```
