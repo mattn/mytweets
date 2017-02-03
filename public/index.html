@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>お気持ち検索</title>
+  <link rel="stylesheet" href="style.css" media="all">
+  <script src="app.js"></script>
+</head>
+<body>
+  <div id="content">
+  <h1>お気持ち検索 ver1.0.0</h1>
+  <form id="form" method="POST">
+  <label for="q">お気持ち</label> <input type="text" name="q" id="q" />
+  <input type="checkbox" name="nort" id="nort" checked /><label for="nort">RT除外</label>
+  <input type="button" id="b" value="お気持ち検索" />
+  </form>
+  <ul id="tweets"></ul>
+  </div>
+</body>
+</html>

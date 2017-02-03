@@ -1,0 +1,37 @@
+#content {
+  font-family: "ヒラギノ角ゴ Pro W3",メイリオ,Osaka,Arial,Verdana,"ＭＳ Ｐゴシック",sans-serif;
+}
+
+label {
+  line-height: 1.3em;
+}
+
+#tweets a {
+  color: black;
+  text-decoration: none;
+}
+
+#tweets li {
+  list-style-type: none !important;
+  list-style-image: none !important;
+  margin: 5px 0px 5px 0px !important;
+  position: relative;
+  display: block;
+  padding: 5px 0px 5px 30px;
+  background: #eee;
+  color: #444;
+  border-radius: 15px 0px 0px 15px;
+  cursor: pointer;
+}
+ 
+#tweets li:before {
+  content: '';
+  display: block; 
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  top: 7px;
+  left: 5px;
+  background: #fff;
+  border-radius: 10px;
+}
